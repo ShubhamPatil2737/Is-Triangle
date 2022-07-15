@@ -75,8 +75,7 @@ body {
 .output {
     border: 1px solid white;
     width: 40%;
-    margin: auto;
-    margin-top: 1.5rem;
+    margin: 1.5rem auto;
     height: 3vh;
     padding: 1rem;
     padding-top: 2rem;
