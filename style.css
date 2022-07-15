@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(bg.jpg);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+.link-inline-item{
+display: inline;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link{
+    color: white;
+}
+.navigation{
+    background-color: blueviolet;
+    color:white;
+    padding: 2rem 1rem; 
+    border-bottom-left-radius: 2rem;
+}
+.link-active{
+    font-size: large;
+    font-weight: bold;
+}
+.list-inline-item{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.all-containers{
+    
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
+.label{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    display: block;
+    margin: 1rem;
+}
+.angles{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 5vh;
+    margin-bottom: 1.5rem;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    padding-left: 0.5rem;
+    text-align: center;
+}
+.output{
+    border: 1px solid white;
+    width: 40%;
+    margin: auto;
+    margin-top: 1.5rem;
+    height: 3vh;
+    padding: 1rem;
+    padding-top: 2rem;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+    border-radius: 0.25rem;
+}
+.allbtns{
+    padding: 1rem 2.5rem;
+    width: 50%;
+    background-color: blueviolet;
+    color:white;
+    border: 1px solid;
+    border-radius: 0.25rem;
+    font-size: medium;
+}
+.questions,.value-label{
+    color: white;
+    font-size: large;
+    padding-left: 1rem;
+}
+.question-container{
+    width: 80%;
+    height: 15vh;
+    margin: auto;
+    border: 2px solid blueviolet;
+    text-align: center;
+    padding-top: 2.5rem;
+    margin-top: 2rem;
+}
+#submitbtn{
+   margin: 2rem;
+   
+}
