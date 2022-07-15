@@ -1,56 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-*{
+
+* {
     margin: 0%;
     padding: 0%;
 }
-body{
+
+body {
     background-image: url(bg.jpg);
     font-family: 'Montserrat', sans-serif;
 }
 
-.link{
+.link {
     padding: 0.5rem 1rem;
     text-decoration: none;
 }
-.link-inline-item{
-display: inline;
+
+.link-inline-item {
+    display: inline;
 }
-.navigation .nav-pills{
+
+.navigation .nav-pills {
     text-align: right;
 }
-.navigation .link{
+
+.navigation .link {
     color: white;
 }
-.navigation{
+
+.navigation {
     background-color: blueviolet;
-    color:white;
-    padding: 2rem 1rem; 
+    color: white;
+    padding: 2rem 1rem;
     border-bottom-left-radius: 2rem;
 }
-.link-active{
+
+.link-active {
     font-size: large;
     font-weight: bold;
 }
-.list-inline-item{
+
+.list-inline-item {
     display: inline;
     padding: 0rem 1rem;
 }
 
-.all-containers{
-    
+.all-containers {
+
     width: 50%;
     margin: auto;
     text-align: center;
-    
+
 }
-.label{
+
+.label {
     color: white;
     font-size: larger;
     text-align: center;
     display: block;
     margin: 1rem;
 }
-.angles{
+
+.angles {
     display: block;
     margin: auto;
     width: 90%;
@@ -61,7 +71,8 @@ display: inline;
     padding-left: 0.5rem;
     text-align: center;
 }
-.output{
+
+.output {
     border: 1px solid white;
     width: 40%;
     margin: auto;
@@ -76,21 +87,25 @@ display: inline;
     background-color: white;
     border-radius: 0.25rem;
 }
-.allbtns{
+
+.allbtns {
     padding: 1rem 2.5rem;
     width: 50%;
     background-color: blueviolet;
-    color:white;
+    color: white;
     border: 1px solid;
     border-radius: 0.25rem;
     font-size: medium;
 }
-.questions,.value-label{
+
+.questions,
+.value-label {
     color: white;
     font-size: large;
     padding-left: 1rem;
 }
-.question-container{
+
+.question-container {
     width: 80%;
     height: 15vh;
     margin: auto;
@@ -99,7 +114,24 @@ display: inline;
     padding-top: 2.5rem;
     margin-top: 2rem;
 }
-#submitbtn{
-   margin: 2rem;
-   
+
+#submitbtn {
+    margin: 2rem;
+}
+h1{
+    color: white;
+   text-align: center;
+   margin-top: 1rem;
+}
+.formula{
+    width: 80%;
+    height: 10vh;
+    margin: 1rem auto;
+    border: 2px solid blueviolet;
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+    font-size: larger;
+    
+
 }
